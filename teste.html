@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>NAVBAR</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap');
+
+    * {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, monospace;
+    }
+
+    :root {
+      --body-color: black;
+      --nav-color: #9d98ff;
+      --side-nav: #0077b6;
+      --text-color: #fff;
+      --contato: #22577a;
+    }
+    
+    body {
+      color: var(--text-color);
+      font-size: 25px;
+      
+    }
+    #nav {
+      height: 80px;
+      background-color: var(--nav-color);
+      border-radius: 0px 0px 0px 15px;
+      width: 95%;
+      margin: auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 20px;
+      position: relative;
+      font-size: 25px;
+    }
+    .Logo a {
+      font-weight: bold;
+      font-size: 28px;
+      color: var(--text-color);
+    }
+    ul.NAVBAR {
+      display: flex;
+      align-items: center;
+      list-style: none;
+      gap: 20px;
+    }
+    ul.NAVBAR a {
+      text-decoration: none;
+      color: var(--text-color);
+      position: relative;
+      padding: 10px;
+      display: flex;
+    }
+    .NAVBAR{
+      display: flex;
+      
+    }
+    .Logo img{
+      mix-blend-mode: multiply;
+      max-width: 90px;
+    }
+    .pesquisa input{
+      background-color: #d0cdfb;
+      border-radius: 25px;
+      padding: 5px;
+      border-color: #fff;
+    }
+    .pesquisa{
+      background-color: var(--nav-color);
+      
+      border-radius: 0px 0px 15px 15px;position: absolute;
+      right: 0%;
+      bottom: -40%;
+      padding: 10px;
+    }
+    main{
+      max-width: 98%;
+      box-shadow: black 0px 0px 25px 0.1px;
+      border-radius: 25px;
+      margin: auto;
+      
+      margin-top: 45px;
+    }
+    img{
+      max-width: 300px;
+      display: flex;
+      margin: auto;
+    }
+    section{
+      padding: 5px;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <div id="nav">
+      <span class="Logo"><img src="img/LOGO.png" alt="essa é a logo"></span>
+    
+      <ul class="NAVBAR">
+        <li><a href="#">PROJETOS</a></li>
+        <li><a href="#">CERTIFICADOS</a></li>
+        <li><a href="#">CONTATOS</a></li>
+        <li><a href="#">SOBRE</a></li>
+        
+      </ul>
+      <div class="pesquisa"><input type="text" name="" id=""></div>
+    </div>
+  </nav>
+  <main>
+  <section>
+    <img src="img/em-breve.png" alt="">
+  </Section>
+  <section>
+    
+  </section>
+  <section>
+    
+  </section>
+  <section>
+    
+  </section>
+</main>
+</body>
+</html>
